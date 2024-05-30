@@ -10,6 +10,7 @@ module.exports = {
         'fade-in': 'fadeIn 1s ease-in-out',
         'slide-in': 'slideIn 0.5s ease-in-out',
         'fade-up': 'fadeUp 1s ease-in-out',
+        'slide-in-bottom': 'slide-in-bottom 0.5s ease-out forwards',
       },
       keyframes: {
         fadeIn: {
@@ -22,6 +23,11 @@ module.exports = {
         },
         fadeUp: {
           '0%': { opacity: 0, transform: 'translateY(20px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+          
+        },
+        'slide-in-bottom': {
+          '0%': { opacity: 0, transform: 'translateY(10px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
       },

@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="#projects" className="text-white mx-4">Projekt</a>
           <a href="#contact" className="text-white mx-4">Kontakt</a>
         </nav>
-        &copy; {new Date().getFullYear()} Din Portfolio. Alla rättigheter reserverade.
+        &copy; {new Date().getFullYear()} Liams Portfolio. Alla rättigheter reserverade.
       </div>
     </footer>
   );
